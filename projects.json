@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "id": "111",
+            "name": "builder",
+            "teams": [
+                {
+                    "id": "1",
+                    "name": "team-dev",
+                    "repositories": [
+                        {
+                            "id": "1",
+                            "name": "python-flask-env-builder",
+                            "destroy": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

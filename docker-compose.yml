@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: sh -c "python app.py"
+    image: guilherme/python-builder:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app  # Mounts the local 'uploads' directory to the container's '/app/uploads' directory
+    environment:
+      - FLASK_ENV=development  # Set Flask to run in development mode
+

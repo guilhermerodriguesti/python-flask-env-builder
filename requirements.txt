@@ -1,0 +1,5 @@
+Flask
+requests
+loguru
+python-dotenv
+python-dotenv
